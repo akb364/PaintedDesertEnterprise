@@ -1,0 +1,297 @@
+<!-- ============================================ -->
+<!--                   Contact                    -->
+<!-- ============================================ -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Painted Desert Enterprise</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/PaintedDesertLogo.jpeg"
+    />
+    <link rel="stylesheet" href="globalStyles.css" />
+    <link rel="stylesheet" href="static/contactCss.css" />
+    <link rel="stylesheet" href="static/nav.css" />
+    <link rel="stylesheet" href="static/footer.css" />
+  </head>
+  <!-- ============================================ -->
+  <!--                 Navigation                   -->
+  <!-- ============================================ -->
+
+  <header id="cs-navigation">
+    <div class="cs-container">
+      <!--Nav Logo-->
+      <a href="/home.html" class="cs-logo" aria-label="back to home">
+        <img
+          src="images/PaintedDesertLogo.jpeg"
+          alt="logo"
+          width="210"
+          height="29"
+          aria-hidden="true"
+          decoding="async"
+          href="home.html"
+        />
+      </a>
+      <!--Navigation List-->
+      <nav class="cs-nav" role="navigation">
+        <!--Mobile Nav Toggle-->
+        <button class="cs-toggle" aria-label="mobile menu toggle">
+          <div class="cs-box" aria-hidden="true">
+            <span class="cs-line cs-line1" aria-hidden="true"></span>
+            <span class="cs-line cs-line2" aria-hidden="true"></span>
+            <span class="cs-line cs-line3" aria-hidden="true"></span>
+          </div>
+        </button>
+        <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+        <div class="cs-ul-wrapper">
+          <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+            <li class="cs-li">
+              <a href="/home.html" class="cs-li-link cs-active"> Home </a>
+            </li>
+            <li class="cs-li">
+              <a href="/about.html" class="cs-li-link"> About </a>
+            </li>
+            <li class="cs-li">
+              <a href="/services.html" class="cs-li-link"> Services </a>
+            </li>
+            <li class="cs-li">
+              <a href="/projects.html" class="cs-li-link"> Project Types </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a href="/contact.html" class="cs-button-solid cs-nav-button"
+        >Contact Us</a
+      >
+    </div>
+  </header>
+  <body>
+  <section id="contact-1750">
+    <div class="cs-container">
+      <div class="cs-form-group">
+        <div class="cs-content">
+          <span class="cs-topper">Get in Touch</span>
+          <h2 class="cs-title">Contact Us</h2>
+        </div>
+        <!--Form-->
+        <form
+          class="cs-form"
+          id="cs-form-1750"
+          name="Contact Form"
+          method="post"
+        >
+          <label class="cs-label">
+            Name *
+            <input
+              class="cs-input"
+              required
+              type="text"
+              id="name-1750"
+              name="name"
+              placeholder="Enter Name Here:"
+            />
+          </label>
+          <label class="cs-label cs-email">
+            Email *
+            <input
+              class="cs-input"
+              required
+              type="email"
+              id="email-1750"
+              name="email"
+              placeholder="Enter Email Here:"
+            />
+          </label>
+          <label class="cs-label cs-phone">
+            Phone *
+            <input
+              class="cs-input"
+              required
+              type="phone"
+              id="phone-1750"
+              name="phone"
+              placeholder="Phone Number"
+            />
+          </label>
+          <label class="cs-label">
+            Message *
+            <textarea
+              class="cs-input cs-textarea"
+              required
+              name="Message"
+              id="message-1750"
+              placeholder="Hello, I am interested..."
+            ></textarea>
+          </label>
+          <button class="cs-button-solid cs-submit" type="submit">
+            Send Message
+          </button>
+        </form>
+      </div>
+      <!--Contact Info-->
+      <div class="cs-info-group">
+        <div class="cs-info">
+          <span class="cs-topper">Location</span>
+          <span class="cs-detail"
+            >4143 E Ascot Dr, San Tan Valley,<br />Arizona 85140</span
+          >
+        </div>
+        <div class="cs-info">
+          <span class="cs-topper">Working Hours</span>
+          <span class="cs-detail">Sunday - Friday: 7AM - 8PM</span>
+          <span class="cs-detail">Saturday: Closed</span>
+        </div>
+        <div class="cs-info">
+          <span class="cs-topper">Contact</span>
+          <span class="cs-detail">M: (480)-231-9356</span>
+          <span class="cs-detail">E: PaintedDesertEnterprise@gmail.com</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="cs-picture-group">
+      <!--Replace with your iframe for your google business profile-->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3338.859250355841!2d-111.52390382423867!3d33.19156306268545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x872a499d3f696ad1%3A0x70da3a05fab6ac0!2sPainted%20Desert%20Construction%2C%20LLC!5e0!3m2!1sen!2sus!4v1719862385893!5m2!1sen!2sus"
+        width="1000"
+        height="900"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+
+      <!--All three graphics use the same src, which is transformed in the CSS. If you want to replace the graphic with another one, simply replace all the src's with the same URL and watch the magic happen!-->
+      <img
+        class="cs-graphic cs-top cs-light"
+        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gym-hero-shape-top-light.svg"
+        alt="graphic"
+        height="161"
+        width="1920"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-graphic cs-left cs-light"
+        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gym-hero-shape-top-light.svg"
+        alt="graphic"
+        height="161"
+        width="1920"
+        loading="lazy"
+        decoding="async"
+      />
+      <img
+        class="cs-graphic cs-bottom cs-light"
+        src="https://csimg.nyc3.cdn.digitaloceanspaces.com/Images/Graphics/gym-hero-shape-top-light.svg"
+        alt="graphic"
+        height="161"
+        width="1920"
+        loading="lazy"
+        decoding="async"
+      />
+    </div>
+  </section>
+  <!-- ============================================ -->
+  <!--                   Footer                     -->
+  <!-- ============================================ -->
+
+  <footer id="cs-footer-274">
+    <div class="cs-container">
+      <!-- Logo Group -->
+      <div class="cs-logo-group">
+        <a aria-label="go back to home" class="cs-logo" href="">
+          <!-- Remove the light class if you don't need the dark logo -->
+          <img
+            class="cs-logo-img"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="images/PaintedDesertLogo.jpeg"
+            alt="logo"
+            width="240"
+            height="32"
+          />
+        </a>
+        <div class="cs-social">
+          <a class="cs-social-link" aria-label="visit google profile" href="">
+            <img
+              class="cs-social-img"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg"
+              alt="google"
+              width="11"
+              height="11"
+            />
+          </a>
+          <a class="cs-social-link" aria-label="visit facebook profile" href="">
+            <img
+              class="cs-social-img"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg"
+              alt="facebook"
+              width="6"
+              height="11"
+            />
+          </a>
+          <a
+            class="cs-social-link"
+            aria-label="visit instagram profile"
+            href=""
+          >
+            <img
+              class="cs-social-img"
+              aria-hidden="true"
+              loading="lazy"
+              decoding="async"
+              src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg"
+              alt="instagram"
+              width="11"
+              height="11"
+            />
+          </a>
+        </div>
+      </div>
+      <!-- Links -->
+      <ul class="cs-nav">
+        <li class="cs-nav-li">
+          <span class="cs-header">Contact</span>
+        </li>
+        <li class="cs-nav-li">
+          <a class="cs-nav-link" href="tel:(480)-231-9356">(480)-231-9356</a>
+        </li>
+        <li class="cs-nav-li">
+          <a class="cs-nav-link" href="mailto:PaintedDesertEnterprise@gmail.com"
+            >PaintedDesertEnterprise@gmail.com</a
+          >
+        </li>
+      </ul>
+      <ul class="cs-nav">
+        <li class="cs-nav-li">
+          <span class="cs-header">Address</span>
+        </li>
+        <li class="cs-nav-li">
+          <li class="cs-nav-li">
+            4143 E Ascot Dr,<br />
+            San Tan Valley, Arizona 85140
+          </li>
+        </li>
+      </ul>
+      <!-- Contact Info -->
+      <ul class="cs-nav">
+        <li class="cs-nav-li">
+          <span class="cs-header">Working Hours</span>
+        </li>
+        <li class="cs-nav-li">Sunday - Friday: 7AM - 8PM</li>
+        <li class="cs-nav-li">Saturday: Closed</li>
+      </ul>
+    </div>
+  </footer>
+</body>
+  <script src="nav.js"></script>
+</html>

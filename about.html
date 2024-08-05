@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Painted Desert Enterprise</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="/images/PaintedDesertLogo.jpeg"
+    />
+    <link rel="stylesheet" href="globalStyles.css" />
+    <link rel="stylesheet" href="static/css.css" />
+    <link rel="stylesheet" href="static/footer.css" />
+    <link rel="stylesheet" href="static/about.css" />
+  </head>
+  <!-- ============================================ -->
+  <!--                 Navigation                   -->
+  <!-- ============================================ -->
+
+  <header id="cs-navigation">
+    <div class="cs-container">
+      <!--Nav Logo-->
+      <a href="/home.html" class="cs-logo" aria-label="back to home">
+        <img
+          src="images/PaintedDesertLogo.jpeg"
+          alt="logo"
+          width="210"
+          height="29"
+          aria-hidden="true"
+          decoding="async"
+          href="home.html"
+        />
+      </a>
+      <!--Navigation List-->
+      <nav class="cs-nav" role="navigation">
+        <!--Mobile Nav Toggle-->
+        <button class="cs-toggle" aria-label="mobile menu toggle">
+          <div class="cs-box" aria-hidden="true">
+            <span class="cs-line cs-line1" aria-hidden="true"></span>
+            <span class="cs-line cs-line2" aria-hidden="true"></span>
+            <span class="cs-line cs-line3" aria-hidden="true"></span>
+          </div>
+        </button>
+        <!-- We need a wrapper div so we can set a fixed height on the cs-ul in case the nav list gets too long from too many dropdowns being opened and needs to have an overflow scroll. This wrapper acts as the background so it can go the full height of the screen and not cut off any overflowing nav items while the cs-ul stops short of the bottom of the screen, which keeps all nav items in view no matter how mnay there are-->
+        <div class="cs-ul-wrapper">
+          <ul id="cs-expanded" class="cs-ul" aria-expanded="false">
+            <li class="cs-li">
+              <a href="/home.html" class="cs-li-link"> Home </a>
+            </li>
+            <li class="cs-li">
+              <a href="/about.html" class="cs-li-link cs-active"> About </a>
+            </li>
+            <li class="cs-li">
+              <a href="/services.html" class="cs-li-link"> Services </a>
+            </li>
+            <li class="cs-li">
+              <a href="/projects.html" class="cs-li-link"> Project Types </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <a href="/contact.html" class="cs-button-solid cs-nav-button"
+        >Contact Us</a
+      >
+    </div>
+  </header>
+<body>
+<main>
+  <div class="top-photo-container">
+  <img src="images/Team.jpg" alt="Top Photo" class="top-photo">
+  </div>
+    <section class="about-section">
+      <div class="about-image">
+        <img src="images/Family Photo.jpg" alt="Side Photo">
+    </div>
+    <div class="about-text">
+      <h2>About Us</h2>
+            <p>Painted Desert Enterprise specializes in concrete construction, offering a comprehensive range of services. Including, curb and gutter, sidewalks, driveways, valley gutters, drainage spillways, handicap ramps, and demolition. Our highly trained staff and extensive array of specialized equipment ensure that we deliver professional and efficient results in every project.
+            </p>
+              <p>Owner & Leading manager - Jarett Patton began his career in the construction industry in 1991. With years of experience under his belt, in 2002, he founded Painted Desert Enterprise. As the leading manager, Jarett oversees all projects, estimations, and manages all business relationships. </p>
+        </div>
+        
+    </section>
+</main>
+</body>
+<footer id="cs-footer-274">
+  <div class="cs-container">
+    <!-- Logo Group -->
+    <div class="cs-logo-group">
+      <a aria-label="go back to home" class="cs-logo" href="">
+        <!-- Remove the light class if you don't need the dark logo -->
+        <img
+          class="cs-logo-img"
+          aria-hidden="true"
+          loading="lazy"
+          decoding="async"
+          src="images/PaintedDesertLogo.jpeg"
+          alt="logo"
+          width="240"
+          height="32"
+        />
+      </a>
+      <div class="cs-social">
+        <a class="cs-social-link" aria-label="visit google profile" href="">
+          <img
+            class="cs-social-img"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.digitaloceanspaces.com/Social/google.svg"
+            alt="google"
+            width="11"
+            height="11"
+          />
+        </a>
+        <a class="cs-social-link" aria-label="visit facebook profile" href="">
+          <img
+            class="cs-social-img"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.digitaloceanspaces.com/Social/Facebook.svg"
+            alt="facebook"
+            width="6"
+            height="11"
+          />
+        </a>
+        <a
+          class="cs-social-link"
+          aria-label="visit instagram profile"
+          href=""
+        >
+          <img
+            class="cs-social-img"
+            aria-hidden="true"
+            loading="lazy"
+            decoding="async"
+            src="https://csimg.nyc3.digitaloceanspaces.com/Social/instagram.svg"
+            alt="instagram"
+            width="11"
+            height="11"
+          />
+        </a>
+      </div>
+    </div>
+    <!-- Links -->
+    <ul class="cs-nav">
+      <li class="cs-nav-li">
+        <span class="cs-header">Contact</span>
+      </li>
+      <li class="cs-nav-li">
+        <a class="cs-nav-link" href="tel:(480)-231-9356">(480)-231-9356</a>
+      </li>
+      <li class="cs-nav-li">
+        <a class="cs-nav-link" href="mailto:PaintedDesertEnterprise@gmail.com"
+          >PaintedDesertEnterprise@gmail.com</a
+        >
+      </li>
+    </ul>
+    <ul class="cs-nav">
+      <li class="cs-nav-li">
+        <span class="cs-header">Address</span>
+      </li>
+      <li class="cs-nav-li">
+        <li class="cs-nav-li">
+          4143 E Ascot Dr,<br />
+          San Tan Valley, Arizona 85140
+        </li>
+      </li>
+    </ul>
+    <!-- Contact Info -->
+    <ul class="cs-nav">
+      <li class="cs-nav-li">
+        <span class="cs-header">Working Hours</span>
+      </li>
+      <li class="cs-nav-li">Sunday - Friday: 7AM - 8PM</li>
+      <li class="cs-nav-li">Saturday: Closed</li>
+    </ul>
+  </div>
+</footer>
+  <script src="nav.js"></script>
+</body>
+</html>
