@@ -11,6 +11,17 @@
       type="image/x-icon"
       href="/images/PaintedDesertLogo.jpeg"
     />
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+    </script>
+    <script type="text/javascript">
+      (function(){
+          emailjs.init({
+            publicKey: "Kii4Ta6FGln6vhq_e",
+          });
+      })();
+    </script>
+    <script src="email.js"></script>
     <link rel="stylesheet" href="globalStyles.css" />
     <link rel="stylesheet" href="static/contactCss.css" />
     <link rel="stylesheet" href="static/nav.css" />
@@ -74,18 +85,15 @@
         </div>
         <!--Form-->
         <form
-          class="cs-form"
-          id="cs-form-1750"
-          name="Contact Form"
-          method="post"
-        >
+          class="cs-form">
           <label class="cs-label">
             Name *
             <input
               class="cs-input"
               required
+              autocomplete="off"
               type="text"
-              id="name-1750"
+              id="name"
               name="name"
               placeholder="Enter Name Here:"
             />
@@ -95,8 +103,9 @@
             <input
               class="cs-input"
               required
+              autocomplete="off"
               type="email"
-              id="email-1750"
+              id="email"
               name="email"
               placeholder="Enter Email Here:"
             />
@@ -106,8 +115,9 @@
             <input
               class="cs-input"
               required
+              autocomplete="off"
               type="phone"
-              id="phone-1750"
+              id="phone"
               name="phone"
               placeholder="Phone Number"
             />
@@ -117,12 +127,12 @@
             <textarea
               class="cs-input cs-textarea"
               required
-              name="Message"
-              id="message-1750"
+              name="message"
+              id="message"
               placeholder="Hello, I am interested..."
             ></textarea>
           </label>
-          <button class="cs-button-solid cs-submit" type="submit">
+          <button class="cs-button-solid cs-submit" type="button" onclick="sendMail()">
             Send Message
           </button>
         </form>
@@ -134,11 +144,6 @@
           <span class="cs-detail"
             >4143 E Ascot Dr, San Tan Valley,<br />Arizona 85140</span
           >
-        </div>
-        <div class="cs-info">
-          <span class="cs-topper">Working Hours</span>
-          <span class="cs-detail">Sunday - Friday: 7AM - 8PM</span>
-          <span class="cs-detail">Saturday: Closed</span>
         </div>
         <div class="cs-info">
           <span class="cs-topper">Contact</span>
